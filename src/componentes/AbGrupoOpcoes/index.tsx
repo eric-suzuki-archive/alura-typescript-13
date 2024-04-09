@@ -53,7 +53,7 @@ export const AbGrupoOpcoes = ({ opcoes, onChange , valorPadrao} : AbGrupoOpcoesP
             onChange(opcao)
         }
     }
-    
+
     return (<>
         {opcoes.map(opcao => 
             <SectionEstilizada
